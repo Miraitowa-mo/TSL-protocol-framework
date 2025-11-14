@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM registry.cn-hangzhou.aliyuncs.com/google_containers/python:3.9-slim
 
 WORKDIR /app
 
