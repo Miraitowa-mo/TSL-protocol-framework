@@ -1,16 +1,1 @@
-version: '3.8'
 
-services:
-  server:
-    build: .
-    ports:
-      - "12345:12345"
-    command: python src/server/server.py
-    container_name: tls-server
-
-  client:
-    build: .
-    depends_on:
-      - server
-    command: sleep 3 && python src/client/client.py
-    container_name: tls-client
