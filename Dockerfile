@@ -1,4 +1,4 @@
-FROM swr.cn-north-4.myhuaweicloud.com/library/python:3.9-slim
+FROM mirror.ccs.tencentyun.com/library/python:3.9-slim
 
 WORKDIR /app
 
