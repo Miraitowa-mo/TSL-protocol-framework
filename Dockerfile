@@ -7,5 +7,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-# 设置默认命令
-CMD ["python", "--version"]
+CMD ["python", "src/server/server.py"]
